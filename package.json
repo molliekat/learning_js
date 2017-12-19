@@ -1,0 +1,31 @@
+{
+  "name": "learning_js",
+  "version": "0.1.0",
+  "description": "learning javascript n stuff :+1:",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "myWebServer": {
+    "port": 8080
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molliekat/learning_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/molliekat/learning_js/issues"
+  },
+  "homepage": "https://github.com/molliekat/learning_js#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1"
+  }
+}
